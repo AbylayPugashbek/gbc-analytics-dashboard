@@ -1,4 +1,5 @@
 Дашборд: https://tz-ks8nyj85m-pugashbek-4846s-projects.vercel.app/
+
 GitHub: https://github.com/AbylayPugashbek/gbc-analytics-dashboard
 
 RetailCRM Analytics Dashboard + Telegram уведомления
