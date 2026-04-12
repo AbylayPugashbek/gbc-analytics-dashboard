@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SaaS Analytics Dashboard</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="layout">
+
+  <!-- SIDEBAR -->
+  <div class="sidebar">
+    <h2>Analytics</h2>
+    <div class="menu">
+      <div>📊 Dashboard</div>
+      <div>📦 Orders</div>
+      <div>💰 Revenue</div>
+    </div>
+  </div>
+
+  <!-- MAIN -->
+  <div class="main">
+
+    <h1>Dashboard</h1>
+
+    <!-- KPI CARDS -->
+    <div class="cards">
+      <div class="card">
+        <h3>Total Revenue</h3>
+        <div id="revenue">0</div>
+      </div>
+
+      <div class="card">
+        <h3>Orders</h3>
+        <div id="orders">0</div>
+      </div>
+
+      <div class="card">
+        <h3>Avg Order</h3>
+        <div id="avg">0</div>
+      </div>
+    </div>
+
+    <!-- CHART -->
+    <div class="chartBox">
+      <canvas id="chart"></canvas>
+    </div>
+
+  </div>
+</div>
+
+<script src="config.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
